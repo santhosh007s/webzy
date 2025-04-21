@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Add this to your global CSS file */
+.noise-pattern {
+  background-color: black; /* Base background color */
+  background-image: 
+    radial-gradient(circle, rgba(255, 255, 255, 0.15) 1px, transparent 1px),
+    radial-gradient(circle, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 8px 8px; /* Adjust size to change noise intensity */
+  background-position: 0 0, 4px 4px; /* Creates the pattern effect */
+}
