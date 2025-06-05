@@ -20,7 +20,7 @@ const NavBar = () => {
         {/* Logo Section */}
         <div className="flex items-center justify-start w-1/4 pr-2 sm:pr-4">
           <Image
-            src="/logo.PNG"
+            src="/logo.png"
             alt="logo"
             width={50}
             height={50}
